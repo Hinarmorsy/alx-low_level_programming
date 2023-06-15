@@ -5,7 +5,7 @@
  * Description: C program that prints the size of various types on the computer
  *
  * Return: 0
-*/i
+*/
 int main(void)
 {	printf("size of a char:%u byte(s)\n", sizeof(char));
 	printf("size of an int:%u byte(s)\n", sizeof(int));
