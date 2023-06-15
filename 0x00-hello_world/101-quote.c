@@ -4,7 +4,7 @@
  *
  * Description: C program prints exactly and that piece of art is useful
  *
- * Return: (1)
+ * Return: 1 (error)
 */
 int main(void)
 {
