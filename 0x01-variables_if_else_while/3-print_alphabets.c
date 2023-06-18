@@ -7,7 +7,7 @@
  * Return: 0 (success)
 */
 int main(void)
-
+{
 	char ch = 'a';
 	char CH = 'A';
 
@@ -24,3 +24,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
+}
