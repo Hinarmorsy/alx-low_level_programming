@@ -2,7 +2,7 @@
 /**
  * main - entry
  *
- * Description:program that prints the alphabet in lowercase, and in uppercase
+ * Description: program that prints the alphabet in lowercase, and in uppercase
  *
  * Return: 0 (success)
 */
