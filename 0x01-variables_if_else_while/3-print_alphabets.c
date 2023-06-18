@@ -22,6 +22,5 @@ int main(void)
 		putchar(CH);
 		ch++;
 	}
-	putchar('\n');
 	return (0);
 }
