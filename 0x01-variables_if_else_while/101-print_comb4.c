@@ -8,28 +8,31 @@
 */
 int main(void)
 {
-	int i;
-	int j;
-	int k;
+	int firstdigit = 0, secondigit;
 
-	for (i = 0; i < 8; i++)
+	while (firstdigit <= 99)
 	{
-		for (j = i + 1; j < 9; j++)
+		secondigit = firstdigit;
+		while (secondigit <= 99)
 		{
-			for (k = j + 1; k < 10; k++)
+			if (secondigit != firstdigit)
 			{
-				putchar(i + '0');
-				putchar(j + '0');
-				putchar(k + '0');
-				if (i != 7 || j != 8 || k != 9)
-				{
-					putchar(',');
-					putchar(' ');
-				}
+				putchar((firstdigit / 10) + 48);
+				putchar((firstdigit % 10) + 48);
+				putchar(' ');
+				putchar((secondigit / 10) + 48);
+				putchar((secondigit % 10) + 48);
+			if (firstdigit != 98 || secondigit != 99)
+			{
+				putchar(',');
+				putchar(' ');
 			}
 		}
+		secondigit++;
 	}
-	putchar('\n');
+	firstdigit++;
 
-	return (0);
+putchar('\n');
+
+return (0);
 }
