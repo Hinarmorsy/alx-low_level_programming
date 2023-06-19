@@ -22,17 +22,17 @@ int main(void)
 				putchar(' ');
 				putchar((secondigit / 10) + 48);
 				putchar((secondigit % 10) + 48);
-			if (firstdigit != 98 || secondigit != 99)
-			{
+				if (firstdigit != 98 || secondigit != 99)
+				{
 				putchar(',');
 				putchar(' ');
+				}
 			}
+			secondigit++;
 		}
-		secondigit++;
-	}
-	firstdigit++;
+		firstdigit++;
 
-putchar('\n');
+	putchar('\n');
 
-return (0);
+	return (0);
 }
