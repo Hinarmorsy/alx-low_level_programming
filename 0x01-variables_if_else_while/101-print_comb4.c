@@ -10,7 +10,7 @@ int main(void)
 {
 	int firstDigit = 0, seconDigit;
 
-	while (firstdigit <= 99)
+	while (firstDigit <= 99)
 	{
 		seconDigit = firstDigit;
 		while (seconDigit <= 99)
@@ -24,8 +24,8 @@ int main(void)
 				putchar((seconDigit % 10) + 48);
 				if (firstDigit != 98 || seconDigit != 99)
 				{
-				putchar(',');
-				putchar(' ');
+					putchar(',');
+					putchar(' ');
 				}
 			}
 			seconDigit++;
