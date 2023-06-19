@@ -1,5 +1,6 @@
 #include <stdio.h>
-/** main - entry
+/**
+ * main - entry
  *
  * Description: program that prints all possible different comb. of 3 digits
  *
