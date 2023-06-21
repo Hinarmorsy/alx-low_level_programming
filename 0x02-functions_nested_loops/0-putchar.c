@@ -1,22 +1,22 @@
-#include <main.h>
+#include "main.h"
 /**
- *main - entry
- *
- *Description: Write a program that prints _putchar
- *
- * Return: 0 (success)
-*/
-int main(void)
-{
+ * main - entry
+ *Description:  print - putchar
+ * Return: 0
+ */
 
-	putchar('_');
-	putchar('p');
-	putchar('u');
-	putchar('t');
-	putchar('c');
-	putchar('h');
-	putchar('a');
-	putchar('r');
 
+	int main(void)
+	{
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	return (0);
 }
+
