@@ -4,11 +4,10 @@
  * _is lower - function to check if
  *	character is lowercase
  *
- * description: check input of functions
+ * @c: checks input of functions
  *
  * Return: returns 1 if the `c` is lowercase otherwise 0.
 */
-
 int _islower(int c)
 {
 	if (c >= 97 && c <= 122)
