@@ -6,9 +6,10 @@
  *
  * @c: checks input of functions
  *
- * Return: returns 1 if the `c` is lowercase otherwise 0.
+ * Return: returns 1 if `c` is lowercase otherwise 0.
 */
-int _islower(int c);
+
+int _islower(int c)
 {
 	if (c >= 97 && c <= 122)
 		return (1);
