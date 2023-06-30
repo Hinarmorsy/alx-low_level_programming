@@ -5,6 +5,7 @@
  *	character is lowercase
  *
  * Description: checks input of functions `c`.
+ * @parameter: c is lowercase
  *
  * Return: returns 1 if `c` is lowercase otherwise 0.
 */
