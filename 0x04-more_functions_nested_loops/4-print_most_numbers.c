@@ -2,9 +2,8 @@
 
 /**
  * print_most_numbers - print 0 - 9 apart.
- * 			from 2 and 4 and you can
- * 			use _putchar twice.
- *
+ *			from 2 and 4 and you can
+ *			use _putchar twice.
  * return: 0.
 */
 
