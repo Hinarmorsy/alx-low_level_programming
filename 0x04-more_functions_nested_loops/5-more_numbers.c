@@ -2,14 +2,14 @@
 
 /**
  * more_numbers - print 0 - 14 ten times and you
- *		can use _putchar 3 times
+ *		can use _putchar three times
  *
  * Return: 0
 */
 
 void more_numbers(void)
 {
-	int num. row, count;
+	int num, row, count;
 
 	for (row = 1; row <= 10; row++)
 	{
